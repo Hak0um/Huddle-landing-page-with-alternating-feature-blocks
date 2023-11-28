@@ -8,14 +8,6 @@
   padding: 0;
   box-sizing: inherit;
 }
-
-:root {
-  --pink: hsl(322, 100%, 66%);
-  --pale-cyan: hsl(193, 100%, 96%);
-  --dark-cyan: hsl(191, 97%, 15%);
-  --grayish-blue: hsl(208, 11%, 55%);
-}
-
 html {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -44,7 +36,7 @@ h3 {
 
 .btn:hover {
   cursor: pointer;
-  opacity: 0.8;
+  opacity: 0.75;
 }
 
 .btn.primary {
@@ -53,25 +45,25 @@ h3 {
 
 .btn.secondary {
   color: white;
-  background: var(--pink);
+  background:hsl(322, 100%, 66%);
 }
 
 /* hero-section */
 .hero-section {
   height: 100vh;
-  background: var(--pale-cyan) url("images/bg-hero-desktop.svg") no-repeat;
-  padding: 36px 59px;
+  background: hsl(193, 100%, 96%) url("images/bg-hero-desktop.svg") no-repeat;
+  padding: 35px 60px;
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 36px;
+  margin-bottom: 35px;
 }
 
 .logo img {
-  height: 26px;
+  height: 25px;
   width: auto;
 }
 
@@ -99,7 +91,7 @@ nav {
 /* features-section */
 
 .features-section {
-  padding: 100px 59px 200px 59px;
+  padding: 100px 60px 200px 60px;
   position: relative;
 }
 
@@ -124,7 +116,7 @@ nav {
 }
 
 .feature .text-info p {
-  color: var(--grayish-blue);
+  color: hsl(208, 11%, 55%);
 }
 
 .feature .illustration {
@@ -172,7 +164,7 @@ nav {
 /* footer */
 
 footer {
-  background: var(--dark-cyan);
+  background: hsl(191, 97%, 15%);
   color: white;
   display: flex;
   align-items: center;
@@ -245,7 +237,7 @@ footer .socials {
 
   .hero-section {
     padding: 20px;
-    background: var(--pale-cyan) url("images/bg-hero-mobile.svg") no-repeat;
+    background: hsl(193, 100%, 96%) url("images/bg-hero-mobile.svg") no-repeat;
   }
   .btn {
     padding: 10px 30px;
